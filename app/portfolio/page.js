@@ -1,6 +1,6 @@
-import { Mr_Dafoe } from "next/font/google";
 import React from "react";
-
+import LeftContents from "./leftComponents/leftContent";
+import RightComponents from "./rightComponents/rightContent";
 export async function generateMetadata(){
     // const id = params.id;
 
@@ -22,8 +22,11 @@ export async function generateMetadata(){
 export default function PortFolio(){
 
     return (
-        <main className="mt-10">
-            <li>portFolio</li>
+        <main className="mt 20 mb-20 mr-20 ml-20">
+            <div className="flex min-h-screen">
+                <LeftContents/> 
+                <RightComponents/>
+            </div>
         </main>
-    )
+    );
 }
