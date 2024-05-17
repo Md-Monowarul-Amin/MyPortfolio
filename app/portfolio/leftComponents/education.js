@@ -9,7 +9,7 @@ export default function Education(){
 
     return(
         <div>
-            <h1 className="text-4xl font-bold mt-2">Education</h1><br></br>
+            <h1 className="text-4xl font-bold mt-2">Education</h1>
         <div>
             <ul>
                 {
