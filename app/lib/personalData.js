@@ -34,7 +34,7 @@ export default function getPersonalData(){
             ],
             "findMeOn":[
                 {
-                    "imageLink":"images/SocialMediaIcons/tg.jpg",
+                    "imageLink":tgpic,
                     "siteLink":`https://t.me/MdMonowarulAmin`,
                     "alt":"telegram ",
                 },
