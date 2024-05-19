@@ -1,6 +1,4 @@
 import React from "react";
-import propic from "@/public/images/propic.jpg";
-import Image from "next/image";
 import getPersonalData from "@/app/lib/personalData";
 
 export default function Education(){
