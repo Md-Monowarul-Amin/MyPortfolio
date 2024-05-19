@@ -7,7 +7,7 @@ export default function AboutMe(){
         <div className="mb-5 ml-2 mr-2">
             <p className="text-2xl"> About Me </p>
    
-            <div>
+            <div className="mt-2">
                 <p>Assalamu Alaikum. I am a fourth year BSc. in Software Engineering student in Computer Science and Engineering Department at Islamic University of Technology, Gazipur.</p> <br></br>
                 <p> I am fortunate enough to have my final year thesis under the supervision of
                     <a href="https://cse.iutoic-dhaka.edu/profile/mahbub/education" className="text-blue-500" target="_blank"> Professor Dr. Muhammad Mahbub Alam </a>
