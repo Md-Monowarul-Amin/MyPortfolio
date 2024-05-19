@@ -1,4 +1,9 @@
 import { Amiri_Quran } from "next/font/google";
+import gitpic from "@/public/images/SocialMediaIcons/git.png";
+import tgpic from "@/public/images/SocialMediaIcons/tg.jpg";
+import fbpic from "@/public/images/SocialMediaIcons/fb.png";
+import xpic from "@/public/images/SocialMediaIcons/X.png";
+import lnpic from "@/public/images/SocialMediaIcons/ln.png";
 
 export default function getPersonalData(){
     const personalData = 
@@ -34,24 +39,24 @@ export default function getPersonalData(){
                     "alt":"telegram ",
                 },
                 {
-                    "imageLink":"/images/SocialMediaIcons/fb.png",
+                    "imageLink":fbpic,
                     "siteLink":`https://www.facebook.com/amin.saraj.31`,
                     "alt":"facebook ",
                 },
                 {
-                    "imageLink":"/images/SocialMediaIcons/X.png",
+                    "imageLink":xpic,
                     "siteLink":`https://x.com/MonowarulMd`,
                     "alt":"X",
 
                 },
                 {
-                    "imageLink":"/images/SocialMediaIcons/ln.png",
+                    "imageLink":lnpic,
                     "siteLink":`https://www.linkedin.com/in/md-monowarul-amin-a673a0203/`,
                     "alt":"LinkedIn",
 
                 },
                 {
-                    "imageLink":"/images/SocialMediaIcons/git.png",
+                    "imageLink":gitpic,
                     "siteLink":`https://github.com/Md-Monowarul-Amin`,
                     "alt":"gitHub",
 
