@@ -29,7 +29,7 @@ export default function getPersonalData(){
             ],
             "findMeOn":[
                 {
-                    "imageLink":"../../images/SocialMediaIcons/tg.jpg",
+                    "imageLink":"images/SocialMediaIcons/tg.jpg",
                     "siteLink":`https://t.me/MdMonowarulAmin`,
                     "alt":"telegram ",
                 },
