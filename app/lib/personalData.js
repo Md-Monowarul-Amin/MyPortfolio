@@ -39,15 +39,15 @@ export default function getPersonalData(){
                     "alt":"facebook ",
                 },
                 {
-                    "imageLink":"/images/SocialMediaIcons/ln.png",
-                    "siteLink":`https://www.linkedin.com/in/md-monowarul-amin-a673a0203/`,
-                    "alt":"LinkedIn",
-
-                },
-                {
                     "imageLink":"/images/SocialMediaIcons/X.png",
                     "siteLink":`https://x.com/MonowarulMd`,
                     "alt":"X",
+
+                },
+                {
+                    "imageLink":"/images/SocialMediaIcons/ln.png",
+                    "siteLink":`https://www.linkedin.com/in/md-monowarul-amin-a673a0203/`,
+                    "alt":"LinkedIn",
 
                 },
                 {
@@ -74,7 +74,7 @@ export default function getPersonalData(){
                     "title": "Junior backend developer in ",
                     "companyName":"DevStation BD",
                     "href":"https://www.facebook.com/devstationbdltd/?paipv=0&eav=AfZvSkX4_QgwS47xaP7CmDgB1CdHwwr01zn0wyqbn3UHM_nNmLg8MsomWOYp176sOK4&_rdr",
-                    "duration":"January 2023 - December 2024",
+                    "duration":"January 2023 - January 2024",
                 },
             ],
         }
