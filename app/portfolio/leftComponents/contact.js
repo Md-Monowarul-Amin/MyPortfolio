@@ -9,21 +9,20 @@ export default function Contact(){
 
     return(
         <div>
-            <h1 className="text-4xl font-bold mt-2">Contact</h1><br></br>
-        <div>
-            <ul>
-                {
-                    educations.map(e => (
-                        <div>
-                            <p className="text-xs font-light" key={e}> {e} </p>
-                        </div>
+            <h1 className="text-2xl mt-2 mb-2">Contact</h1>
+            <div className="mb-2">
+                <ul>
+                    {
+                        educations.map(e => (
+                            <div>
+                                <p className="text-xs font-light" key={e}> {e} </p>
+                            </div>
 
-                    ))
-                }
-            </ul>
-            <br></br>
+                        ))
+                    }
+                </ul>
 
-        </div>
+            </div>
         </div>
         
     )

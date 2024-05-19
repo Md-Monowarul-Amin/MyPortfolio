@@ -9,16 +9,15 @@ export default function Education(){
 
     return(
         <div>
-            <h1 className="text-4xl font-bold mt-2">Education</h1>
+            <h1 className="text-2xl mt-2 ">Education</h1>
         <div>
             <ul>
                 {
                     educations.map(e => (
-                        <div>
-                            <p className="text-xl font-bold" key={e.name}> {e.name} </p>
-                            <p className="text-base " key={e.Degree}> {e.Degree} </p>
+                        <div className="mt-2 mb-2">
+                            <p className="text-base" key={e.name}> {e.Degree} </p>
+                            <p className="text-sm " key={e.Degree}> {e.name} </p>
                             <p className="text-xs font-light" key={e.Duration}> {e.Duration} </p>
-                            <br></br>
                         </div>
 
                     ))

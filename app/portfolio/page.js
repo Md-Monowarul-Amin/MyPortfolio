@@ -22,7 +22,7 @@ export async function generateMetadata(){
 export default function PortFolio(){
 
     return (
-        <main className="mt 20 mb-20 mr-20 ml-20">
+        <main className="mt 5 mb-5 mr-20 ml-20">
             <div className="flex min-h-screen">
                 <LeftContents/> 
                 <RightComponents/>
