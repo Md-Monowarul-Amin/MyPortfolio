@@ -14,7 +14,7 @@ export default function Education(){
             <ul>
                 {
                     educations.map(e => (
-                        <div className="mt-2 mb-2">
+                        <div className="mt-2 mb-2" key={e.name}>
                             <p className="text-base" key={e.name}> {e.Degree} </p>
                             <p className="text-sm " key={e.Degree}> {e.name} </p>
                             <p className="text-xs font-light" key={e.Duration}> {e.Duration} </p>

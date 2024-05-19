@@ -18,7 +18,7 @@ export default function Mission(){
 
             <ul>
                 {blogs.map((blog) => (
-                    <ul>
+                    <ul key={blog.id}>
                         <li><Link href={`../blogs/${blog.id}`} key={blog.id}> Blog {blog.id} </Link></li>
                         <li>Title: {blog.title} </li>
                         <li>{blog.description}</li>

@@ -20,7 +20,7 @@ export default function Blogs(){
         <main className="mt-10">
             <ul>
                 {blogs.map((blog) => (
-                    <ul className="mb-5">
+                    <ul className="mb-5" key={blog.id}>
                         <li><Link href={`/blogs/${blog.id}`} key={blog.id}> Blog {blog.id} </Link></li>
                         <li>Title: {blog.title} </li> 
                     </ul>

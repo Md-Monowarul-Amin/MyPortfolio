@@ -12,7 +12,7 @@ export default function FindMeOnRight(){
                 <p className="text-base"> Find Me On </p>
                 {
                     findMeOn_.map(social => (
-                        <div>
+                        <div key={social.alt}>
                             <a href={social.siteLink} target="_blank">
                             <Image className="rounded-full aspect-square object-cover" src={social.imageLink}  alt={social.alt} key={social.siteLink} width={30} height={30} />
                             </a>

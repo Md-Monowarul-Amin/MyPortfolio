@@ -13,8 +13,8 @@ export default function Contact(){
             <div className="mb-2">
                 <ul>
                     {
-                        educations.map(e => (
-                            <div>
+                        educations.map((e) => (
+                            <div key={e}>
                                 <p className="text-xs font-light" key={e}> {e} </p>
                             </div>
 
