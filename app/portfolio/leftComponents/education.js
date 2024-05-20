@@ -7,7 +7,7 @@ export default function Education(){
 
     return(
         <div>
-            <h1 className="text-2xl mt-2 ">Education2</h1>
+            <h1 className="text-2xl mt-2 ">Education</h1>
         <div>
             <ul>
                 {
