@@ -16,7 +16,7 @@ export default function Tools(){
                             <div key={value.caption} className="justify-end ml-5 mr-5">
                                 <div>
                                     <div>
-                                        <Image src={value.imageLink} width={50} height={50}/>
+                                        <Image src={value.imageLink} width={50} height={50} alt={value.caption}/>
                                     </div>
                                     <p className="text-sm ml-3"> {value.caption} </p>
                                 </div>
