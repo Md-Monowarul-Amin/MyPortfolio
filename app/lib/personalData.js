@@ -153,7 +153,7 @@ export default function getPersonalData(){
                     "companyName":"DevStation BD",
                     "href":"https://www.facebook.com/devstationbdltd/?paipv=0&eav=AfZvSkX4_QgwS47xaP7CmDgB1CdHwwr01zn0wyqbn3UHM_nNmLg8MsomWOYp176sOK4&_rdr",
                     "duration":"January 2023 - January 2024",
-                    "Description":"Worked as a backend developer in a charitable blood donation app project - Bloodlink. Contributed in the backend part built using ASP .Net Core"
+                    "Description":"Worked as a backend developer in a charitable blood donation app project - Bloodlink. Contributed in building the API's developed using ASP .Net Core"
                 },
             ],
         }
