@@ -58,8 +58,56 @@ export default function getPersonalData(){
                 },
             ],
             "CVlink":"https://drive.google.com/file/d/1GfiniTZ6wZgVfhvhIZtA3Nki3dZgkKCi/view?usp=sharing",
-            "AboutMe":["Assalamu Alaikum. I am a fourth year BSc. in Software Engineering student in Department in Computer Science and Engineering at Islamic University of Technology, Gazipur. ",
-                        "I am highly enthusiastic in <b>Full Stack Web & Mobile Application Development </b>."
+            "Tools": [
+                    {
+                        "key": "Programming Languages",
+                        "values":[
+                            {
+                            "caption": "C",
+                            "imageLink": "./images/Tools/c.png"
+                        },
+                        {   "caption": "C#",
+                            "imageLink": "./images/Tools/csharp.png"
+                        },
+                        {   "caption": "python",
+                            "imageLink": "./images/Tools/python.jpg"
+                        },
+                        {   "caption": "java",
+                            "imageLink": "./images/Tools/java.png"
+                        },
+                    ],
+                    
+                },
+                {   
+                    "key":"Frame Works",
+                    "values":[
+                        {
+                            "caption": ".Net",
+                            "imageLink": "./images/Tools/dotnetcore.png",
+                        },
+                        {   "caption": "django",
+                            "imageLink": "./images/Tools/django.png",
+                        },
+                        {   "caption": "Next.js",
+                            "imageLink": "./images/Tools/next.png",
+                        },
+                    ]   
+                },
+                {
+                    "key":"Tools ",
+                    "values":[
+                        {
+                            "caption": "git",
+                            "imageLink": "./images/Tools/git.png",
+                        },
+                        {   "caption": "Jira",
+                            "imageLink": "./images/Tools/jira.png",
+                        },
+                        {   "caption": "slack",
+                            "imageLink": "./images/Tools/slack.png",
+                        },
+                    ]
+                },
             ],
             "publication":{},
             "projects":{},
