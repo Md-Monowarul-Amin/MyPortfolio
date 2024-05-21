@@ -110,7 +110,36 @@ export default function getPersonalData(){
                 },
             ],
             "publication":{},
-            "projects":{},
+            "projects":[
+                {
+                    "title":"BloodLink",
+                    "imageLink": "./images/Projects/bloodLink.png",
+                    "gitLink":"",
+                    "Demo":"",
+                    "Description":"A hassle-free blood donation mobile application to connect donors and receivers in the fastest possible way which was built using ASP .NET Core, Flutter, and MySQL."
+                },
+                {
+                    "title":"Auction",
+                    "imageLink": "./images/Projects/auction.jpg",
+                    "gitLink":"",
+                    "Demo":"",
+                    "Description":"An Auction site to buy and cell products online using bid price."
+                },
+                {
+                    "title":"Space Shooting Game",
+                    "imageLink": "./images/Projects/space.PNG",
+                    "gitLink":"",
+                    "Demo":"",
+                    "Description":"A Java Script based shooting game"
+                },
+                {
+                    "title":"Excel Automaion with Python",
+                    "imageLink": "./images/Projects/ExcelPython.png",
+                    "gitLink":"",
+                    "Demo":"",
+                    "Description":"Automaing excel files for solving complex accounting problems with the help of Python. "
+                },
+            ],
             "workExperience":[
                 {
                     "title": "Software development intern in ",

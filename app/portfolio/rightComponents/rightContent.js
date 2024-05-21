@@ -2,6 +2,7 @@ import FindMeOn from "../leftComponents/findMe";
 import AboutMe from "./aboutMe";
 import GetExperience from "./experience";
 import FindMeOnRight from "./findMeOn";
+import Projects from "./projects";
 import Tools from "./tools";
 
 export default function RightContents(){
@@ -17,6 +18,8 @@ export default function RightContents(){
             <GetExperience/>
             <hr></hr>
             <Tools />
+            <hr></hr>
+            <Projects/>
             <hr></hr>
 
         </div>
